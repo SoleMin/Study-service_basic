@@ -1,0 +1,49 @@
+# ── 비밀값 ─────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secret*.yaml
+!secret.example.yaml
+
+# ── Python ────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ── 실행 결과물 (모델, 데이터, 벡터 DB) ──
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+chroma_db/
+chroma/
+*.sqlite3
+data/raw/
+.cache/
+hf_cache/
+
+# ── 로그 ──────────────────────────────
+*.log
+logs/
+
+# ── 정적 사이트 빌드 (MkDocs) ──────────
+site/
+
+# ── OS / 에디터 ───────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/

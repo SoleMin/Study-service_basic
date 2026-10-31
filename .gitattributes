@@ -1,0 +1,6 @@
+# Windows와 Mac/Linux가 섞여도 줄바꿈 때문에 diff가 전부 바뀌지 않게 해요
+* text=auto
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
