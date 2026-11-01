@@ -8,7 +8,7 @@ git switch main
 git pull origin main
 
 # 2. 이번 주 브랜치 만들기
-git switch -c <이름>/week2        # 예: minki/week2
+git switch -c <이름>/week2        # 예: mingi/week2
 
 # 3. members/<이름>/week2/ 에서 작업하고 커밋
 git add members/<이름>/
