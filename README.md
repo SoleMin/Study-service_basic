@@ -118,7 +118,7 @@ cp .env.example .env
 | 전민기 | `members/minki` |  | O |  |  |  |  |  |  |
 | 이선주 | `members/addie` | O | O | O |  |  |  |  |  |
 | 최세진 |  |  |  |  |  |  |  |  |  |
-| 임도유 |  |  |  |  |  |  |  |  |  |
+| 임도유 | `members/doyu` | O | O | O |  |  |  |  |  |
 | 박희지 |  |  |  |  |  |  |  |  |  |
 
 ## 평가표 (3주차부터 채움)
