@@ -1,0 +1,21 @@
+services:
+  api:
+    build: .                          # 이 폴더의 Dockerfile로 이미지를 만든다
+    ports:
+      - "8000:8000"                   # 내 PC 8000 → 컨테이너 8000
+    env_file:
+      - path: .env                    # API 키 등을 환경 변수로 넣는다
+        required: false               # .env가 없어도 시작은 된다 (선주님 리뷰에서 제안한 것)
+    environment:
+      REDIS_URL: redis://redis:6379/0 # compose 안에서 Redis 주소는 서비스 이름 "redis"
+    depends_on:
+      redis:
+        condition: service_healthy    # Redis가 준비된(healthy) 뒤에 api를 시작
+
+  redis:
+    image: redis                      # 0주차에 받아 둔 이미지
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]   # PONG이 오면 healthy
+      interval: 5s
+      timeout: 3s
+      retries: 5
