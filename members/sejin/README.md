@@ -6,6 +6,7 @@
 | --- | --- | --- | --- |
 | 1 | `week1/` | Dockerfile 빌드·실행, -v -p 실습, slim + .dockerignore 크기 비교 | 완료 |
 | 2 | `week2/` | 스터디 Q&A API: FastAPI + Redis 캐시 + compose + 스트리밍 | 완료 |
+| 3 | `week3/` | 팀 위키 RAG 노트북: bge-m3 + Chroma 검색, LCEL로 답 + 출처, Recall@5 / MRR@5 평가 | 진행 중 (`app/main.py` 정리 남음) |
 
 ## 위키 페이지
 
