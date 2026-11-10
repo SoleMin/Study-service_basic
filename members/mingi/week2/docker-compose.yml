@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env          # 키는 실행할 때 환경변수로 넣어 줌
+    environment:
+      REDIS_HOST: redis     # 서비스 이름으로 접속
+    depends_on:
+      - redis
+  redis:
+    image: redis:7

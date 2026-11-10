@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false   # .env가 없어도 /health, /echo는 뜬다
+    environment:
+      REDIS_HOST: redis   # 컨테이너 안의 localhost는 자기 자신이라 서비스 이름으로 접속
+    depends_on:
+      - redis
+  redis:
+    image: redis:7
