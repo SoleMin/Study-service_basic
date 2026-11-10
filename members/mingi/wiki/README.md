@@ -26,3 +26,16 @@
 | [async-fastapi.md](pages/async-fastapi.md) | FastAPI에서 async가 필요한 때 |
 
 문제 기록: [raw/week2-troubleshooting.md](raw/week2-troubleshooting.md)
+
+## 3주차: RAG 기초 (LangChain)
+
+| 페이지 | 다루는 내용 |
+| --- | --- |
+| [rag-pipeline.md](pages/rag-pipeline.md) | RAG 파이프라인의 흐름 |
+| [embedding-sentence-transformers.md](pages/embedding-sentence-transformers.md) | 임베딩과 sentence-transformers |
+| [vector-db-similarity.md](pages/vector-db-similarity.md) | 유사도(코사인, 내적, L2)와 벡터 DB, HNSW |
+| [chunking.md](pages/chunking.md) | 청킹: 청크 크기, overlap, 짧은 청크 |
+| [lcel-rag-chain.md](pages/lcel-rag-chain.md) | LCEL 검색 + 생성 체인, 출처 반환 |
+| [rag-evaluation.md](pages/rag-evaluation.md) | 검색 평가: Recall@k, MRR@k |
+
+문제 기록: [raw/week3-troubleshooting.md](raw/week3-troubleshooting.md)
