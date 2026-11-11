@@ -1,0 +1,20 @@
+{"question": "도커 이미지랑 컨테이너는 뭐가 달라?", "answer_pages": ["huiji/image-vs-container", "mingi/image-container-layer-registry", "sejin/1-docker-concepts"]}
+{"question": "만든 이미지를 다른 사람과 나눠 받으려면 어디에 올려?", "answer_pages": ["mingi/image-container-layer-registry", "sejin/1-docker-concepts"]}
+{"question": "가상 머신이나 conda 환경 대신 컨테이너를 쓰는 이유는?", "answer_pages": ["mingi/vm-conda-docker"]}
+{"question": "Dockerfile에서 RUN과 CMD는 각각 언제 실행돼?", "answer_pages": ["mingi/dockerfile-instructions"]}
+{"question": "코드만 고쳤는데 pip install이 매번 다시 도는 걸 막으려면 Dockerfile 순서를 어떻게 해?", "answer_pages": ["mingi/dockerfile-instructions", "sejin/1-docker-concepts"]}
+{"question": "실행 중인 컨테이너의 출력을 보거나 안에 들어가서 명령을 치려면?", "answer_pages": ["mingi/container-commands"]}
+{"question": "컨테이너가 끝나면 자동으로 지워지게 하는 옵션은?", "answer_pages": ["mingi/container-commands", "mingi/volume-port", "sejin/1-docker-concepts"]}
+{"question": "컨테이너를 지워도 그 안에서 만든 파일을 남기려면 어떻게 해?", "answer_pages": ["mingi/volume-port", "sejin/1-docker-concepts"]}
+{"question": "-p 8888:8888에서 앞의 숫자와 뒤의 숫자는 각각 무엇을 뜻해?", "answer_pages": ["mingi/volume-port"]}
+{"question": "컨테이너 여러 개를 파일 하나로 같이 띄우는 방법은?", "answer_pages": ["mingi/docker-compose"]}
+{"question": "api 컨테이너 안에서 Redis에 접속할 때 주소를 localhost로 쓰면 안 되는 이유는?", "answer_pages": ["mingi/docker-compose", "sejin/2-fastapi-redis-async"]}
+{"question": "컨테이너 안에서 uvicorn을 띄울 때 호스트를 0.0.0.0으로 줘야 하는 이유는?", "answer_pages": ["mingi/docker-compose", "mingi/dockerfile-instructions", "sejin/2-fastapi-redis-async"]}
+{"question": "데이터를 가져오기만 하는 요청과 본문을 실어 보내는 요청은 HTTP 메서드가 어떻게 달라?", "answer_pages": ["mingi/fastapi-basics", "sejin/2-fastapi-redis-async"]}
+{"question": "요청 본문에 타입이 틀린 값이 들어오면 FastAPI는 어떻게 응답해?", "answer_pages": ["mingi/fastapi-basics", "sejin/2-fastapi-redis-async"]}
+{"question": "코드를 따로 짜지 않고 브라우저에서 API를 눌러 보며 테스트하는 방법은?", "answer_pages": ["mingi/fastapi-basics", "sejin/2-fastapi-redis-async"]}
+{"question": "LLM API 키를 코드에 그대로 적으면 왜 위험해?", "answer_pages": ["mingi/api-key-env"]}
+{"question": "키 값은 비워 두고 키 이름만 적은 파일을 저장소에 올리는 이유는?", "answer_pages": ["mingi/api-key-env"]}
+{"question": "캐시에 저장한 답이 일정 시간 뒤 자동으로 사라지게 하려면?", "answer_pages": ["mingi/redis-ttl-cache", "sejin/2-fastapi-redis-async"]}
+{"question": "질문 문장을 그대로 쓰지 않고 해시해서 캐시 키로 쓰는 이유는?", "answer_pages": ["mingi/redis-ttl-cache"]}
+{"question": "async 함수 안에서 time.sleep을 쓰면 왜 다른 요청까지 멈춰?", "answer_pages": ["doyu/async-fastapi", "mingi/async-fastapi", "addie/async-when-needed", "huiji/when-to-use-async", "sejin/2-fastapi-redis-async"]}

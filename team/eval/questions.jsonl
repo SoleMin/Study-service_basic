@@ -1,0 +1,25 @@
+{"id": "q01", "question": "비밀 키를 소스 코드에 직접 적어 두면 어떤 위험이 있어?", "answer_pages": ["api-key-env_mingi"]}
+{"id": "q02", "question": "깃허브에 올라가면 안 되는 파일 목록은 어디에 적어 둬?", "answer_pages": ["api-key-env_mingi"]}
+{"id": "q03", "question": "async 함수 안에서 time.sleep을 쓰면 왜 전체 응답이 느려져?", "answer_pages": ["async-fastapi_mingi", "async-fastapi_doyu", "when-to-use-async_huiji", "2-fastapi-redis-async_sejin"]}
+{"id": "q04", "question": "외부 API 응답을 기다리는 동안 다른 요청도 처리하려면 어떻게 해야 해?", "answer_pages": ["async-fastapi_mingi", "async-fastapi_doyu", "when-to-use-async_huiji", "2-fastapi-redis-async_sejin"]}
+{"id": "q05", "question": "백그라운드로 띄운 컨테이너가 출력한 내용을 보려면 어떤 명령을 써?", "answer_pages": ["container-commands_mingi"]}
+{"id": "q06", "question": "실행 중인 컨테이너 안에 들어가서 쉘 명령을 치려면?", "answer_pages": ["container-commands_mingi", "1-docker-concepts_sejin"]}
+{"id": "q07", "question": "여러 컨테이너의 실행 설정을 파일 하나에 적어 한 번에 띄우는 방법은?", "answer_pages": ["docker-compose_mingi"]}
+{"id": "q08", "question": "api 컨테이너에서 레디스에 접속할 때 주소를 localhost로 쓰면 왜 안 돼?", "answer_pages": ["docker-compose_mingi"]}
+{"id": "q09", "question": "이미지를 만들 때 실행되는 명령과 컨테이너가 시작될 때 실행되는 명령은 어떻게 달라?", "answer_pages": ["dockerfile-instructions_mingi", "1-docker-concepts_sejin"]}
+{"id": "q10", "question": "코드 한 줄만 고쳤는데 패키지 설치가 매번 다시 돌아. 무엇을 바꿔야 해?", "answer_pages": ["dockerfile-instructions_mingi", "1-docker-concepts_sejin"]}
+{"id": "q11", "question": "요청 데이터 형식이 맞지 않으면 서버가 알아서 거절하게 하려면?", "answer_pages": ["fastapi-basics_mingi", "2-fastapi-redis-async_sejin"]}
+{"id": "q12", "question": "API를 브라우저에서 직접 눌러 보며 테스트할 수 있는 화면은 어디야?", "answer_pages": ["fastapi-basics_mingi", "2-fastapi-redis-async_sejin"]}
+{"id": "q13", "question": "같은 질문이 다시 들어오면 LLM을 또 부르지 않게 하려면 어떻게 해?", "answer_pages": ["redis-ttl-cache_mingi", "2-fastapi-redis-async_sejin"]}
+{"id": "q14", "question": "저장해 둔 값이 일정 시간이 지나면 자동으로 사라지게 하는 설정은?", "answer_pages": ["redis-ttl-cache_mingi", "2-fastapi-redis-async_sejin"]}
+{"id": "q15", "question": "컨테이너가 꺼진 뒤에도 안에서 만든 결과 파일을 남기려면?", "answer_pages": ["volume-port_mingi", "1-docker-concepts_sejin"]}
+{"id": "q16", "question": "컨테이너 안에서 8888번으로 돌아가는 서비스에 내 PC 브라우저로 접속하려면?", "answer_pages": ["volume-port_mingi"]}
+{"id": "q17", "question": "Docker Hub 같은 저장소에서 태그는 무엇을 구분하는 데 써?", "answer_pages": ["image-container-layer-registry_mingi", "1-docker-concepts_sejin"]}
+{"id": "q18", "question": "컨테이너 안에서 바꾼 파일이 원래 이미지에는 남지 않는 이유는?", "answer_pages": ["image-container-layer-registry_mingi", "1-docker-concepts_sejin"]}
+{"id": "q19", "question": "가상머신과 컨테이너는 커널을 쓰는 방식이 어떻게 달라?", "answer_pages": ["vm-conda-docker_mingi"]}
+{"id": "q20", "question": "conda 환경만으로는 다른 PC에서 똑같이 재현되지 않는 경우는 언제야?", "answer_pages": ["vm-conda-docker_mingi"]}
+{"id": "q21", "question": "베이스 이미지를 slim 버전으로 바꾸면 이미지 크기가 얼마나 달라져?", "answer_pages": ["image-vs-container_huiji", "1-docker-concepts_sejin"]}
+{"id": "q22", "question": "무거운 계산 작업도 async로 바꾸면 빨라질까?", "answer_pages": ["async-fastapi_doyu", "when-to-use-async_huiji", "2-fastapi-redis-async_sejin"]}
+{"id": "q23", "question": "요청 본문의 글자 수나 숫자 범위에 제한을 거는 방법은?", "answer_pages": ["2-fastapi-redis-async_sejin"]}
+{"id": "q24", "question": "latest 태그를 쓰면 항상 최신 이미지를 받는다고 믿어도 돼?", "answer_pages": ["1-docker-concepts_sejin"]}
+{"id": "q25", "question": "이미지와 컨테이너를 설계도에 비유하면 각각 무엇에 해당해?", "answer_pages": ["image-vs-container_huiji", "image-container-layer-registry_mingi", "1-docker-concepts_sejin"]}

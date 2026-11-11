@@ -1,0 +1,18 @@
+<!-- merge_wiki.py 자동 생성: 원본 members/huiji/wiki/pages/embedding-vectordb.md . 수정은 원본에서 하세요 -->
+
+# 임베딩과 벡터 DB
+
+## 한 줄 정의
+글을 벡터로 바꾸고, 질문 벡터와 가까운 벡터를 찾아 주는 저장소
+
+## 왜 필요한가
+단어가 달라도 뜻이 비슷한 문서를 찾기 위해
+
+## 예제
+rag.ipynb 참고
+
+## 내가 막힌 점
+
+## 출처
+- BAAI/bge-m3 모델
+- LangChain 문서: Chroma
