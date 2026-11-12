@@ -9,6 +9,7 @@
 | 1 | `week1/` | Python 앱 이미지 빌드·실행, 빌드 캐시 순서 실험, `-p`·`-v` 실습, slim vs full 크기 비교 | 완료 |
 | 2 | `week2/` | FastAPI `/chat`(가짜 LLM) + Redis TTL 캐시, compose, async 실험 | 완료 |
 | 3 | `week3/` | 팀원 위키 16페이지 RAG: bge-m3 + Chroma + Claude, 출처 반환, 질문 20개로 Recall@5·MRR@5 채점 | 완료 |
+| 4 | `week4/` | BM25·하이브리드(RRF)·리랭커 비교, FastAPI `/ask` + Docker, 평가 데이터 누수 발견 | 완료 |
 
 ## 위키 페이지
 
@@ -17,3 +18,4 @@
 | `wiki/pages/image-vs-container.md` | 리뷰 대기 |
 | `wiki/pages/async-fastapi.md` | 리뷰 대기 |
 | `wiki/pages/rag-pipeline.md` | 리뷰 대기 |
+| `wiki/pages/hybrid-search-reranker.md` | 리뷰 대기 |
