@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  replicas: 2                  # Pod를 항상 2개 유지
+  selector:
+    matchLabels:
+      app: nginx               # 이 라벨의 Pod를 내가 관리한다
+  template:                    # 아래부터가 Pod의 설계도
+    metadata:
+      labels:
+        app: nginx             # selector.matchLabels와 반드시 같아야 함
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:1.27
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx
+spec:
+  type: ClusterIP              # 클러스터 내부 전용 주소 (기본값)
+  selector:
+    app: nginx                 # 이 라벨의 Pod로 트래픽 전달
+  ports:
+    - port: 80                 # Service가 받는 포트
+      targetPort: 80           # Pod 컨테이너의 포트

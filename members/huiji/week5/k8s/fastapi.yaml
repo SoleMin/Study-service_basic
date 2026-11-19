@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-fastapi
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: my-fastapi
+  template:
+    metadata:
+      labels:
+        app: my-fastapi
+    spec:
+      containers:
+        - name: api
+          image: my-fastapi:1.2
+          imagePullPolicy: IfNotPresent   # 로컬에 있으면 레지스트리에서 받지 않음
+          ports:
+            - containerPort: 8000
+          env:
+            - name: GOOGLE_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: gemini-key
+                  key: GOOGLE_API_KEY
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-fastapi
+spec:
+  selector:
+    app: my-fastapi
+  ports:
+    - port: 80
+      targetPort: 8000
