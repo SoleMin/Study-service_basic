@@ -1,0 +1,20 @@
+# 일부러 고장 낸 예 1: kind에 넣지 않은 태그(2.0)를 부른다 → ImagePullBackOff
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: broken-pull
+  namespace: study
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: broken-pull
+  template:
+    metadata:
+      labels:
+        app: broken-pull
+    spec:
+      containers:
+        - name: api
+          image: doyu-week2-api:2.0
+          imagePullPolicy: IfNotPresent
