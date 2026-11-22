@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env                         # GEMINI_API_KEY
+    volumes:
+      - ../../../team/wiki:/wiki:ro        # 팀 위키를 읽기 전용으로 (이미지를 다시 빌드하지 않고 위키 갱신 반영)
+      - hf-cache:/root/.cache/huggingface  # 모델 캐시: 컨테이너를 지웠다 다시 올려도 다시 안 받아요
+
+volumes:
+  hf-cache:
