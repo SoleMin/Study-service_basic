@@ -1,0 +1,25 @@
+# 일부러 고장 낸 예 2: CACHE_TTL에 숫자가 아닌 값 → 앱이 켜지자마자 int("1h")에서 죽는다 → CrashLoopBackOff
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: broken-crash
+  namespace: study
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: broken-crash
+  template:
+    metadata:
+      labels:
+        app: broken-crash
+    spec:
+      containers:
+        - name: api
+          image: doyu-week2-api:1.0
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: REDIS_HOST
+              value: redis
+            - name: CACHE_TTL
+              value: "1h"
