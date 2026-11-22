@@ -1,0 +1,13 @@
+{"id": "q26", "question": "LLM에게 바로 묻지 않고 문서를 먼저 찾아서 붙여 주는 이유는 뭐야?", "answer_pages": ["rag-pipeline_mingi", "rag-pipeline_huiji", "rag-pipeline_doyu", "3-rag-basics_sejin"]}
+{"id": "q27", "question": "RAG에서 질문이 오기 전에 미리 한 번만 해 두는 단계와 질문마다 하는 단계는 어떻게 나뉘어?", "answer_pages": ["rag-pipeline_mingi"]}
+{"id": "q28", "question": "문서를 아주 잘게 자르거나 아주 크게 자르면 검색에 각각 어떤 문제가 생겨?", "answer_pages": ["chunking_mingi", "chunking_huiji"]}
+{"id": "q29", "question": "겹치는 글자 수를 50으로 줬는데 앞 조각과 하나도 안 겹치는 조각이 생긴 이유는?", "answer_pages": ["chunking_mingi"]}
+{"id": "q30", "question": "파일을 읽어서 본문과 부가 정보(파일 경로 등)를 가진 객체로 바꾸는 단계는 뭐야?", "answer_pages": ["document-loading_huiji"]}
+{"id": "q31", "question": "토큰마다 나온 벡터 여러 개를 문장 벡터 하나로 합치는 단계는 뭐고 어떻게 합쳐?", "answer_pages": ["embedding-sentence-transformers_mingi"]}
+{"id": "q32", "question": "단어가 달라도 뜻이 비슷한 문서를 찾으려면 무엇이 필요해?", "answer_pages": ["embedding-vectordb_huiji", "embedding-sentence-transformers_mingi", "vector-db-similarity_mingi", "3-rag-basics_sejin"]}
+{"id": "q33", "question": "Chroma에서 거리 설정을 안 바꾸면 점수는 클수록 가까운 거야, 작을수록 가까운 거야?", "answer_pages": ["vector-db-similarity_mingi"]}
+{"id": "q34", "question": "문서가 백만 개쯤 되면 전부와 비교하지 않고 어떻게 빨리 찾아?", "answer_pages": ["vector-db-similarity_mingi"]}
+{"id": "q35", "question": "랭체인에서 파이프 기호로 단계를 이어 붙이면 데이터가 어떻게 흘러가?", "answer_pages": ["lcel-rag-chain_mingi", "lcel-rag-chain_huiji", "3-rag-basics_sejin"]}
+{"id": "q36", "question": "답변과 함께 어느 페이지를 참고했는지 돌려주려면 어떻게 해?", "answer_pages": ["lcel-rag-chain_mingi", "lcel-rag-chain_huiji", "3-rag-basics_sejin", "rag-pipeline_doyu"]}
+{"id": "q37", "question": "정답을 5위 안에 찾았는지와 몇 위에 찾았는지를 각각 재는 지표는?", "answer_pages": ["rag-evaluation_mingi", "rag-evaluation_huiji", "rag-pipeline_doyu"]}
+{"id": "q38", "question": "질문 벡터와 가장 가까운 조각을 몇 개 꺼낼지 정하는 값은 뭐야?", "answer_pages": ["retrieval_huiji", "rag-pipeline_doyu", "3-rag-basics_sejin"]}
