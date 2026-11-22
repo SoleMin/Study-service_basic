@@ -1,0 +1,7 @@
+.venv/
+chroma_db/
+results/
+.env
+*.ipynb
+**/__pycache__/
+concurrency_test.py
