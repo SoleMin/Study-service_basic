@@ -1,0 +1,5 @@
+# 스터디 실습용 공간. 여기 만든 것은 kubectl delete ns study 한 번으로 다 지워진다
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: study

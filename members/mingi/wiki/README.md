@@ -39,3 +39,15 @@
 | [rag-evaluation.md](pages/rag-evaluation.md) | 검색 평가: Recall@k, MRR@k |
 
 문제 기록: [raw/week3-troubleshooting.md](raw/week3-troubleshooting.md)
+
+## 4주차: RAG 고도화 + API화
+
+| 페이지 | 다루는 내용 |
+| --- | --- |
+| [rerank-cross-encoder.md](pages/rerank-cross-encoder.md) | 리랭커: bi-encoder로 찾고 cross-encoder로 다시 매기기 |
+| [hybrid-search-bm25-rrf.md](pages/hybrid-search-bm25-rrf.md) | 하이브리드 검색: BM25 + 벡터, RRF |
+| [fastapi-rag-api.md](pages/fastapi-rag-api.md) | RAG를 FastAPI /ask로 서빙, 위키에 없는 질문 거르기 |
+| [multi-turn-query-rewrite.md](pages/multi-turn-query-rewrite.md) | 멀티턴: 후속 질문 다시 쓰기 (선택 항목) |
+| [docker-ml-image.md](pages/docker-ml-image.md) | 모델을 쓰는 앱의 Docker 이미지 |
+
+문제 기록: [raw/week4-troubleshooting.md](raw/week4-troubleshooting.md)
