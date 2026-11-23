@@ -36,6 +36,7 @@
 | 3 | [RAG 파이프라인의 흐름 (3주차)](rag-pipeline_mingi.md) | 모든 정보를 LLM에 넣을 수 없고 만약 정보가 최신화라도 되면 학습을 다시 시켜야 하는 비용같은 문제가발생… | mingi |
 | 3 | [유사도와 벡터 DB: 코사인, 내적, L2, Chroma, HNSW (3주차)](vector-db-similarity_mingi.md) | 벡터의 거리를 확인한다. 코사인 유사도는 방향, 내적은 곂치는 방향 값의 크기, L2는 방향과 길이까지 확인… | mingi |
 | 3 | [RAG 기초: 팀 위키에 질문하기 (3주차)](3-rag-basics_sejin.md) | RAG는 질문과 관련된 문서를 먼저 검색해 LLM에게 함께 건네고, 그 자료를 근거로 답변하게 하는 시스템이… | sejin |
+| 5 | [Pod, Deployment, Service, Namespace의 관계](k8s-pod-deployment-service_doyu.md) | Pod는 컨테이너가 실제로 도는 가장 작은 단위, Deployment는 "이 Pod를 몇 개 유지해"라는 원… | doyu |
 
 ## 같은 주제 후보
 
