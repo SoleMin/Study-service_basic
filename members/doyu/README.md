@@ -30,5 +30,5 @@
 | `wiki/pages/image-vs-container.md` | 1 | 반영됨 |
 | `wiki/pages/async-fastapi.md` | 2 | 반영됨 |
 | `wiki/pages/rag-pipeline.md` | 3 | 반영됨 |
-| `wiki/pages/hybrid-search-reranker.md` | 4 | 대기 (전체 병합 때) |
+| `wiki/pages/hybrid-search-reranker.md` | 4 | 반영됨 |
 | `wiki/pages/k8s-pod-deployment-service.md` | 5 | 반영됨 |
