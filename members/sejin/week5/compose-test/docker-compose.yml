@@ -1,0 +1,4 @@
+services:
+  web:
+    image: nginx:1.27   # k8s 실습과 같은 이미지
+    restart: always     # compose의 자동 재시작 옵션
